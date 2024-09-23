@@ -7,7 +7,6 @@ const idade = parseInt(gets());
 
 let categoria;
 
-// TODO: Verifique a faixa etária e define a categoria correspondente
 if (idade < 9) {
   categoria = "Infantil";
 } else if (idade > 10 && idade < 14) {
@@ -16,5 +15,5 @@ if (idade < 9) {
   categoria = "Adolescente";
 }
 
-// Exibe o resultado no console
+
 print(categoria);
